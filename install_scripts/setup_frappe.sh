@@ -7,7 +7,7 @@ set -e
 
 print_msg() {
 	# echo "Frappe password: $FRAPPE_USER_PASS"
-	echo "LetzERP password: $FRAPPE_USER_PASS"
+	echo "letzERP password: $FRAPPE_USER_PASS"
 	echo "MariaDB root password: $MSQ_PASS"
 	echo "Administrator password: $ADMIN_PASS"
 }
@@ -401,7 +401,7 @@ main() {
 		RUNNING=" and is running on port 80"
 	fi
 	#echo "Frappe/ERPNext is installed successfully$RUNNING."
-	echo "LetzERP is installed successfully$RUNNING."
+	echo "letzERP is installed successfully$RUNNING."
 
 	# print_msg > ~/frappe_passwords.txt
 	print_msg > ~/letzERP_passwords.txt
